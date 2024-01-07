@@ -15,5 +15,5 @@ func NewEntity(l *log.Logger) *Entity {
 }
 
 func (entity *Entity) ServeHTTP(responseWriter http.ResponseWriter, request *http.Request) {
-  fmt.Println("got here")
+  fmt.Println("got here 3222")
 }
